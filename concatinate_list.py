@@ -1,7 +1,7 @@
 class Node:
     def __init__(self,val):
         self.data = val
-        self.next =None
+        self.next = None
 
 class LinkedList:
     def __init__(self):
@@ -23,9 +23,6 @@ class LinkedList:
         temp.next = list1.head
 
 
-
-
-
     def print(self):
         temp = self.head
         print()
@@ -43,7 +40,6 @@ list.append(n1)
 list.append(n2)
 list.append(n3)
 list.append(Node(40))
-
 list.print()
 
 
@@ -57,7 +53,5 @@ list1.append(n3)
 list1.append(Node(400))
 
 list1.print()
-
-
 list.concat()
 list.print()
